@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Tests Suite">
+
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="tests.TestNGIntroTests">
+                <methods>
+                    <include name="test1"></include>
+                    <include name="test4"></include>
+<!--                    <exclude name="test2"></exclude>-->
+                </methods>
+            </class>
+            <class name="tests.exampleWebsites.GoogleTest"></class>
+
+
+<!--            <class name="tests.TestNGIntroTests"></class>-->
+<!--            <class name="tests.PIMTests"></class>-->
+
+        </classes>
+    </test>
+
+</suite>
