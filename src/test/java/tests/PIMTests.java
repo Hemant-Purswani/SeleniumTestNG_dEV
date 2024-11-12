@@ -50,8 +50,7 @@ public class PIMTests {
 
 //        SeleniumUtils.waitForTextToAppearInElement(driver, 10, empIdInTable, pimPage.empID);
 //        SeleniumUtils.waitForTextToAppearInElement(driver, 10, firstNameInTable, pimPage.fName);
-//        SeleniumUtils.waitForTextToAppearInElement(driver, 10, lastNameInTable, pimPage.lName);
-
+//
         Assert.assertEquals(empIdInTable.getText(), pimPage.empID);
         Assert.assertEquals(firstNameInTable.getText(), pimPage.fName);
         Assert.assertEquals(lastNameInTable.getText(), pimPage.lName);
