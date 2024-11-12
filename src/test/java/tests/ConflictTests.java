@@ -17,7 +17,11 @@ public class ConflictTests {
     @Test
     public void test2() {
         String message = "Welcome to USA  - the land";
+
         System.out.println(message);
+
+        Assert.assertTrue(message.toLowerCase().contains("land"));
+
     }
 
 }
